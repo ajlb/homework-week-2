@@ -1,7 +1,16 @@
+/* One Stylesheet to Rule Them All
+   AKA this stylesheet applies to all pages on site */
+
+
+/* Formatting for all page body */
+
 body {
     background-image: url(../images/connect.png);
     color: gray;
 }
+
+
+/* formatting for nav bar */
 
 .navbar-brand {
     font-size: 3.2vw;
@@ -22,14 +31,12 @@ body {
 }
 
 main {
-    /* -webkit-box-shadow: rgba(0, 0, 0, 0.5) 7px 6px 19px -3px; */
-    /* box-shadow: rgba(0, 0, 0, 0.5) 7px 6px 19px -3px; */
     margin-bottom: 100px;
 }
 
 main h1 {
     color: #4aaaa5;
-    /* font-family: 'Hoefler Text', Times, serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     padding-top: .6em;
 }
@@ -37,6 +44,36 @@ main h1 {
 main img {
     margin-bottom: 2vh;
 }
+
+main hr {
+    width: 100%;
+    border: #cccccc solid 1px;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar {
+        padding: 0;
+    }
+    .nav-link {
+        font-size: 2.6vw;
+    }
+    main h1 {
+        font-size: 6.2vw;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .navbar-brand {
+        font-size: 34px;
+    }
+    .container-xl {
+        width: 70vw;
+        height: auto;
+    }
+}
+
+
+/* Footer specific formatting */
 
 footer {
     position: fixed;
@@ -65,25 +102,9 @@ footer p {
     width: 100%;
 }
 
-@media screen and (max-width: 767px) {
-    .navbar {
-        padding: 0;
-    }
-    .nav-link {
-        font-size: 2.6vw;
-    }
-    main h1 {
-        text-align: center;
-        font-size: 6.2vw;
-    }
-}
 
-@media screen and (min-width: 980px) {
-    .navbar-brand {
-        font-size: 34px;
-    }
-    .container-xl {
-        width: 70vw;
-        height: auto;
-    }
+/* Contact Page Specific */
+
+.btn-primary {
+    background-color: #4aaaa5;
 }
