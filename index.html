@@ -13,20 +13,22 @@
 
 <body class="container-fluid">
     <header class="navbar row bg-white pt-0 pb-0 mb-5">
-        <h1 class="navbar-brand m-0 h1 col-sm-12 col-md-4 col-xl-4 text-center text-light">Nancy Lambert</h1>
-        <ul class="nav text-center col-xs-12 col-sm-12 col-md-7 col-xl-7  justify-content-center justify-content-sm-center justify-content-md-end">
-            <li class="nav-item border-right">
-                <a class="nav-link disabled" href="./index.html">About</a>
-            </li>
-            <li class="nav-item border-right">
-                <a class="nav-link disabled" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="./contact.html">Contact</a>
-            </li>
-        </ul>
+        <h1 class="navbar-brand m-0 h1 col-sm-12 col-md-4 col-xl-4 text-center text-white">Nancy Lambert</h1>
+        <nav class="nav col-xs-12 col-sm-12 col-md-8 col-xl-8 justify-content-sm-center justify-content-md-end justify-content-center">
+            <ul class="nav text-center">
+                <li class="nav-item border-right">
+                    <a class="nav-link disabled" href="./index.html">About</a>
+                </li>
+                <li class="nav-item border-right">
+                    <a class="nav-link disabled" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <main class="container-xl bg-white">
+    <main class="container-xl bg-white m-0">
         <!-- main content with two rows separated by a horizontal rule
             This section contains an About me header, an image of me, and a brief summary -->
         <section class="row">
@@ -35,8 +37,9 @@
         </section>
         <section class="row">
             <div class="col-md-12">
-                <figure class="float-left mb-0">
-                    <img src="./assets/images/NLB.jpg" class="px-3 mb-0" alt="Headshot of Nancy Lambert, full stack developer">
+                <!-- float the figure left on larger screens -->
+                <figure class="float-md-left float-lg-left float-xl-left mb-0">
+                    <img src="./assets/images/NLB.jpg" class="pl-0 pr-3 mb-0" alt="Headshot of Nancy Lambert, full stack developer">
                 </figure>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error deserunt alias suscipit iste. Doloribus laborum voluptas facilis assumenda aliquam sunt iusto quibusdam unde veritatis nam debitis cum, a animi corporis necessitatibus nobis dolore nostrum?
