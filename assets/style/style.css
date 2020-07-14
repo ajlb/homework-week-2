@@ -17,6 +17,10 @@ body {
     color: gray;
 }
 
+.border-bottom {
+    color: gray;
+}
+
 main {
     /* -webkit-box-shadow: rgba(0, 0, 0, 0.5) 7px 6px 19px -3px; */
     /* box-shadow: rgba(0, 0, 0, 0.5) 7px 6px 19px -3px; */
