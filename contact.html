@@ -34,14 +34,26 @@
         <!-- main content with two rows separated by a horizontal rule
             This section contains a Contact header, and a form with Name, Email and message -->
         <section class="row">
-            <h1 class="col-md-12">About me</h1>
+            <h1 class="col-12">Contact</h1>
             <hr>
         </section>
         <section class="row">
             <div class="col-12">
                 <!-- contact form -->
                 <form>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam ullam id minima repudiandae quis laudantium.
+                    <div class="form-group">
+                        <label for="inputName">Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="John Smith">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="example@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputMessage">Message</label>
+                        <textarea class="form-control" id="inputMessage" cols="12" rows="10"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
         </section>
