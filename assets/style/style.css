@@ -50,6 +50,8 @@ footer .container-fluid {
     padding: 0;
     background-color: grey;
     width: 100%;
+    color: white;
+    font-size: 1.2vw;
 }
 
 footer .container-fluid hr {
@@ -82,5 +84,6 @@ footer p {
     }
     .container-xl {
         width: 70vw;
+        height: auto;
     }
 }
