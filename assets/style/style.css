@@ -22,7 +22,7 @@ body {
     padding-bottom: .5em;
 }
 
-.nav-item {
+.nav-item, .nav-link {
     color: gray;
 }
 
@@ -80,31 +80,15 @@ main hr {
 /* Footer specific formatting */
 
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100vw;
-    padding: 0;
-}
-
-footer .container-fluid {
-    padding: 0;
     background-color: grey;
-    width: 100%;
+    border-top: 6px #4aaaa5 solid;
+}
+
+footer .container{
     color: white;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
 }
 
-footer .container-fluid hr {
-    border: 3px solid rgb(74, 170, 164);
-    margin: 0;
-    padding: 0;
-}
-
-footer p {
-    margin: 0;
-    width: 100%;
-}
 
 
 /* Contact Page Specific */
