@@ -22,10 +22,10 @@ Anyone is free to find the source code here on GitHub. You can access the files 
 
 ## Credits ##
 
-BootStrap: https://getbootstrap.com/
-Icon Finder: https://www.iconfinder.com/
-Sublte Patterns (Background image): https://www.toptal.com/designers/subtlepatterns/
-Thank you to all the members of my study group for helping each other with the intricacies of Bootstrap!
+- BootStrap: https://getbootstrap.com/
+- Icon Finder: https://www.iconfinder.com/
+- Sublte Patterns (Background image): https://www.toptal.com/designers/subtlepatterns/
+- Thank you to all the members of my study group for helping each other with the intricacies of Bootstrap!
 
 ## License ##
 
