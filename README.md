@@ -24,7 +24,8 @@ Anyone is free to find the source code here on GitHub. You can access the files 
 
 BootStrap: https://getbootstrap.com/
 Icon Finder: https://www.iconfinder.com/
-Thank you to all the members of my study group for hours of working together!
+Sublte Patterns (Background image): https://www.toptal.com/designers/subtlepatterns/
+Thank you to all the members of my study group for helping each other with the intricacies of Bootstrap!
 
 ## License ##
 
