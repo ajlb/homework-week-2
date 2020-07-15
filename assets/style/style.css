@@ -22,7 +22,7 @@ body {
     padding-bottom: .5em;
 }
 
-.nav-item {
+.nav-item .nav-link {
     color: gray;
 }
 
