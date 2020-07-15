@@ -14,7 +14,7 @@ https://n-lambert.github.io/homework-week-2/
 
 ## Introduction ##
 
-This is my professional portfolio. In it you'll find the projects I've been working on as well as a contact form and links to my social media. It is built using Bootstrap 4, relying on the grid system and some flexbox CSS as well.
+This is my professional portfolio. In it you'll find the projects I've been working on as well as a contact form and links to my social media. It is built using Bootstrap 4 and css and liberal doses of coffee.
 
 ## Usage ##
 
